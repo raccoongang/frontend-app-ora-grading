@@ -13,7 +13,7 @@
     "lint-fix": "fedx-scripts eslint --fix --ext .jsx,.js src/",
     "semantic-release": "semantic-release",
     "start": "fedx-scripts webpack-dev-server --progress",
-    "test": "TZ=GMT fedx-scripts jest --coverage --passWithNoTests",
+    "test": "TZ=GMT jest --coverage --passWithNoTests",
     "watch-tests": "jest --watch",
     "prepare": "husky install",
     "replace-variables": "paragon replace-variables -p src -t usage"
