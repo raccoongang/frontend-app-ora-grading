@@ -26,6 +26,6 @@
 
 @media (--pgn-size-breakpoint-max-width-sm) {
   .file-card-title {
-    width: calc(var(--pgn-size-container-max-width-sm)/2);
+    width: calc(var(--pgn-size-container-max-width-sm) / 2);
   }
 }
