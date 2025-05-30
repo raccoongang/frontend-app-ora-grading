@@ -6,6 +6,7 @@ $fa-font-path: "~font-awesome/fonts";
 
 $input-focus-box-shadow: var(--pgn-elevation-form-input-base); // hack to get upgrade to paragon 4.0.0 to work
 
+@import "~@edx/brand/paragon/overrides";
 @import "~@edx/frontend-component-footer/dist/_footer";
 @import "~@edx/frontend-component-header/dist/index";
 
