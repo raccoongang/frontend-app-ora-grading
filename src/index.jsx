@@ -18,6 +18,7 @@ import {
 import messages from './i18n';
 
 import App from './App';
+import ThemeCookieSync from './components/ThemeCookieSync';
 
 subscribe(APP_READY, () => {
   const root = createRoot(document.getElementById('root'));
@@ -25,6 +26,7 @@ subscribe(APP_READY, () => {
   root.render(
     <StrictMode>
       <AppProvider store={store} wrapWithRouter={false}>
+        <ThemeCookieSync />
         <App />
       </AppProvider>
     </StrictMode>,
