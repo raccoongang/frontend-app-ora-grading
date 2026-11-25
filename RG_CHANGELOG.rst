@@ -9,6 +9,13 @@ and this project adheres to customized Semantic Versioning e.g.: `teak-rg.1`
 [Unreleased]
 ************
 
+[release/teak-rg.4] - 2026-11-25
+********************************
+
+Fixed:
+======
+* Remove the double slash from the notification preferences link, which opened an error page in the Account MFE (TEA-263)
+
 [release/teak-rg.3] - 2026-02-27
 ********************************
 
